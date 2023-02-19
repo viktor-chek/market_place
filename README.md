@@ -24,7 +24,7 @@ ___
 - Клонировать репозиторий
 - Установить виртуальное окружение и зависимости из requirements.txt
 - Создать и заполнить .env файл по образцу из корня
-- Поднять базу в докер:`docker run --name postgres_test -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres`
+- Поднять базу в докер: `docker run --name postgres_test -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres`
 - Применить миграции: `python manage.py migrate`
 - Создать пользователя командой: `python manage.py createsuperuser`
 - Запустить сервер: `python manage.py runserver`
